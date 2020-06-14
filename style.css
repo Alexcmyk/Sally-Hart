@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img,
+iframe {
+  vertical-align: bottom;
+  max-width: 100%;
+}
+
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: "Cooper Hewitt";
+  font-weight: 300;
+  font-style: normal;
+  src: url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-300.eot");
+  src: url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-300.eot?#iefix") format("embedded-opentype"), url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-300.woff2") format("woff2"), url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-300.woff") format("woff"), url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-300.ttf") format("truetype"), url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-300.svg#Cooper Hewitt") format("svg");
+}
+
+@font-face {
+  font-family: "Cooper Hewitt";
+  font-weight: 400;
+  font-style: normal;
+  src: url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-400.eot");
+  src: url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-400.eot?#iefix") format("embedded-opentype"), url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-400.woff2") format("woff2"), url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-400.woff") format("woff"), url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-400.ttf") format("truetype"), url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-400.svg#Cooper Hewitt") format("svg");
+}
+
+@font-face {
+  font-family: "Cooper Hewitt";
+  font-weight: 700;
+  font-style: normal;
+  src: url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-700.eot");
+  src: url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-700.eot?#iefix") format("embedded-opentype"), url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-700.woff2") format("woff2"), url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-700.woff") format("woff"), url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-700.ttf") format("truetype"), url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-700.svg#Cooper Hewitt") format("svg");
+}
+
+@font-face {
+  font-family: "Cooper Hewitt";
+  font-weight: 300;
+  font-style: italic;
+  src: url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-300_italic.eot");
+  src: url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-300_italic.eot?#iefix") format("embedded-opentype"), url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-300_italic.woff2") format("woff2"), url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-300_italic.woff") format("woff"), url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-300_italic.ttf") format("truetype"), url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-300_italic.svg#Cooper Hewitt") format("svg");
+}
+
+@font-face {
+  font-family: "Cooper Hewitt";
+  font-weight: 400;
+  font-style: italic;
+  src: url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-400_italic.eot");
+  src: url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-400_italic.eot?#iefix") format("embedded-opentype"), url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-400_italic.woff2") format("woff2"), url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-400_italic.woff") format("woff"), url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-400_italic.ttf") format("truetype"), url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-400_italic.svg#Cooper Hewitt") format("svg");
+}
+
+@font-face {
+  font-family: "Cooper Hewitt";
+  font-weight: 700;
+  font-style: italic;
+  src: url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-700_italic.eot");
+  src: url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-700_italic.eot?#iefix") format("embedded-opentype"), url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-700_italic.woff2") format("woff2"), url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-700_italic.woff") format("woff"), url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-700_italic.ttf") format("truetype"), url("//d2wwthy2zmzhx.cloudfront.net/fonts/cooper-hewitt-700_italic.svg#Cooper Hewitt") format("svg");
+}
+
+body {
+  font-family: "Cooper Hewitt";
+  font-weight: 400;
+  font-size: 16px;
+  background-color: #004d96;
+  color: #fff;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header {
+  position: fixed;
+  top: 30px;
+  left: 30px;
+}
+
+header h1 {
+  font-family: "Roboto Slab";
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+header p {
+  margin-top: 10px;
+  font-size: 24px;
+}
+
+section {
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+section.img_one {
+  background-image: url(./assets/sally_1.jpg);
+}
+
+section.img_two {
+  background-image: url(./assets/sally_2.jpg);
+}
+
+section.img_three {
+  background-image: url(./assets/sally_3.jpg);
+}
+
+section.img_four {
+  background-image: url(./assets/sally_4.jpg);
+}
+
+section.img_five {
+  background-image: url(./assets/sally_5.jpg);
+}
+
+section.img_six {
+  background-image: url(./assets/sally_6.jpg);
+}
+
+section.img_seven {
+  background-image: url(./assets/sally_7.jpg);
+}
+
+section.img_eight {
+  background-image: url(./assets/sally_8.jpg);
+}
+
+footer {
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+}
+
+footer a:not(:last-child) {
+  margin-right: 15px;
+}
+
+footer a:hover {
+  color: #ddd;
+}
+/*# sourceMappingURL=style.css.map */
