@@ -1,6 +1,5 @@
 /* Fontface import */
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
 @font-face {
   font-family: "Cooper Hewitt";
   font-weight: 300;
@@ -253,4 +252,84 @@ select {
 
 body {
   font-family: "Cooper Hewitt";
+  font-size: 16px;
+  background-color: #004d96;
+  color: #fff;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+header {
+  position: fixed;
+  top: 40px;
+  left: 40px;
+}
+
+section {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section.image_1 {
+  background-image: url(./assets/sally_1.jpg);
+}
+
+section.image_2 {
+  background-image: url(./assets/sally_2.jpg);
+}
+
+section.image_3 {
+  background-image: url(./assets/sally_3.jpg);
+}
+
+section.image_4 {
+  background-image: url(./assets/sally_4.jpg);
+}
+
+section.image_5 {
+  background-image: url(./assets/sally_5.jpg);
+}
+
+section.image_6 {
+  background-image: url(./assets/sally_6.jpg);
+}
+
+section.image_7 {
+  background-image: url(./assets/sally_7.jpg);
+}
+
+section.image_8 {
+  background-image: url(./assets/sally_8.jpg);
+}
+
+footer {
+  position: fixed;
+  bottom: 40px;
+  left: 40px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+footer a:not(:last-child) {
+  margin-right: 20px;
+}
+
+footer a:hover {
+  color: #ddd;
+}
+
+@media (max-width: 850px) {
+  section {
+    height: 75vw;
+    background-attachment: scroll;
+  }
 }
